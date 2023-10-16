@@ -1,0 +1,332 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('../assets/font/CabinetGrotesk-Extrabold.otf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('../assets/font/CabinetGrotesk-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('../assets/font/CabinetGrotesk-Medium.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('../assets/font/CabinetGrotesk-Regular.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+  */
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+ 
+html {
+  /* font-size:14 */
+  background:linear-gradient(to right,rgb(122, 247, 139), rgb(199, 247, 210));
+  padding:0rem;
+  margin: 0rem;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #000000;
+  font-family: Source Han Sans CN;
+  letter-spacing: -0.3px;
+}
+ 
+body{
+  background:linear-gradient(to right,rgb(122, 247, 139), rgb(199, 247, 210));
+  padding:0rem;
+  margin: 0rem;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #000000;
+  font-family: Source Han Sans CN;
+  letter-spacing: -0.3px;
+  font-size: 1rem;
+
+}
+
+.container1{
+  background: rgba(242, 247, 235, 0.78);
+  padding:0rem;
+  margin: 0rem;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #000000;
+  font-family: Source Han Sans CN;
+  letter-spacing: -0.3px;
+
+}
+
+
+
+
+@media (min-width: 1920px) {
+  html {
+    font-size:18px
+  }
+} 
+
+@media (max-width: 1440px) {
+  html {
+    font-size:14px
+  }
+} 
+
+@media (max-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* .css-uio422-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border:2px solid  #4D9623;
+} */
+
+/* steplabel */
+.css-1hv8oq8-MuiStepLabel-label.Mui-active{
+  color:#868686;
+  font-family: Source Han Sans CN;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+}
+
+.css-1hv8oq8-MuiStepLabel-label.Mui-completed {
+  font-family: Source Han Sans CN;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+color: #000000;
+}
+
+
+/* //input lable 位置 */
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root.Mui-error {
+  line-height: .8REM;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+  line-height: .8REM;
+}
+
+/* //进度条 */
+
+.css-fcg4w3-MuiLinearProgress-root::before{
+  /* background-color: #D3D3D3; */
+}
+
+.css-1wqgwi1-MuiLinearProgress-bar1{
+  background-color: green;
+}
+
+.css-x4aefu{
+  background-color: green;
+}
+
+/* 进度条文字 */
+.css-1hv8oq8-MuiStepLabel-label.Mui-completed{
+  color: #868686;
+    font-family: Source Han Sans CN;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+
+/* //竖的进度条文字 */
+.css-lfitj9-MuiGrid-root{
+  font-size: 1rem;
+
+}
+
+.css-1hv8oq8-MuiStepLabel-label.MuiStepLabel-alternativeLabel{
+  color: #868686;
+    font-family: Source Han Sans CN;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+
+/* //draw页头 */
+.ant-drawer-header-title{
+  height:2.5rem;
+}
+
+
+/* drawer内边距 */
+:where(.css-dev-only-do-not-override-12jzuas).ant-drawer .ant-drawer-body {
+  padding:0rem
+}
+
+:where(.css-12jzuas).ant-drawer .ant-drawer-body {
+  padding:0rem
+}
+
+.css-ejll1l-MuiBadge-badge{
+ 
+}
+
+
+a{
+  color:inherit;
+  /* width:100%; */
+  text-decoration:none;
+  display: block;
+  /* background-color: green; */
+  outline: none; /* 去掉默认的轮廓边框 */
+  border: none; /* 去掉默认的边框样式 */
+  z-index: 100;
+}
+
+a:active{
+  color:inherit;
+  /* width:100%; */
+  text-decoration:none;
+  box-shadow: none;
+  border-radius:.5rem;
+  /* background-color: green; */
+  outline: none; /* 去掉默认的轮廓边框 */
+  border: none; /* 去掉默认的边框样式 */
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+  padding:7px 10px
+}
+.css-18b1cq5-MuiInputBase-root-MuiOutlinedInput-root{
+  width:10rem;
+  height:40px;
+}
+
+.css-2j48i-MuiFormControl-root{
+  padding:0;
+}
+
+.css-2j48i-MuiFormControl-root:active{
+  border-color:green
+}
+
+.css-vj1n65-MuiGrid-root:focus {
+  border:1PX solid green
+}
+
+
+
+.css-cg3nde-MuiInputBase-root-MuiOutlinedInput-root :focus {
+  /* border:1PX solid green !important; */
+  outline: 0;
+
+}
+
+
+/* select 的padding */
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+  padding:3px ;
+}
+
+/* select选中后的内容样式 */
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+  display: flex;
+  /* justify-content: space-around; */
+  gap:.5rem;
+  align-items: center;
+  border-color:#4D9623 ;
+}
+
+.css-uio422-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root,.Mui-focused{
+  border-color:#4D9623 ;
+}
+
+.css-uio422-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color:#4D9623 ;
+}
+
+
+.MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root,.Mui-focused{
+  border-color:#4D9623 ;
+}
+
+.MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color:#4D9623 ;
+}
+
+
+
+/* select布局 */
+.css-qiwgdb.MuiSelect-select{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* radio的选中颜色 */
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track{
+  background-color: #4D9623;
+}
+
+
+/* 圆点颜色 */
+.css-jsexje-MuiSwitch-thumb{
+  background-color: #FFFFFF;
+}
+
+
+.MuiGrid-root .css-1495aze{
+  font-size: 1rem;
+}
+
+/* .MuiOutlinedInput-notchedOutline .css-igs3ac{
+  border-color:#4D9623 ;
+}
+
+.css-uio422-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color:#4D9623 ;
+} */
+
+
+
+.MuiBadge-badge,.MuiBadge-standard, .MuiBadge-anchorOriginTopRight, .MuiBadge-anchorOriginTopRightCircular, .MuiBadge-overlapCircular, .MuiBadge-colorPrimary, .css-zgconh {
+  font-weight: 500;
+  font-size: 0.75rem;
+  min-width:  1.6875rem;
+  line-height: 1;
+  padding: 2px;
+  height:1.6875rem;
+  border-radius: 50%;
+  background-color: #F39176;
+
+}
